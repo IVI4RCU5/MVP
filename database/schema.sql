@@ -13,8 +13,10 @@ CREATE TABLE users (
 CREATE TABLE messages (
   id INT NOT NULL AUTO_INCREMENT,
   author INT,
+  recipient INT,
   content VARCHAR(300),
   FOREIGN KEY author REFERENCES users(id)
+  FOREIGN KEY recipient REFERENCES users(id)
 );
 
 CREATE TABLE friends (

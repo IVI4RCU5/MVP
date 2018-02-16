@@ -1,8 +1,12 @@
 var mysql = require('mysql')
 
-var connection = mysql.createConnection({
+var database = mysql.createConnection({
   host: 'localhost',
   user: 'root',
   password: 'mvp',
   database: 'mvp'
 })
+
+var postMessage = function(callback) {
+  database.query(INSERT INTO )
+}
