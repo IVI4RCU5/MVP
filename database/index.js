@@ -23,7 +23,7 @@ module.exports.login = function(username, response) {
       User.create({
         username: username, 
         inbox: [], 
-        friends: []
+        friends: [] 
       })
       .then((result) => {
         response.statusCode(201).send()

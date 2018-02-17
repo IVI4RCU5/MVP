@@ -5,6 +5,7 @@ var db = require('../database')
 var app = express()
 
 app.use(express.static(__dirname + '/client/dist'))
+app.use(bodyParser.json())
 
 app.post('/users', function(req, res) {
   db.login(req.body)

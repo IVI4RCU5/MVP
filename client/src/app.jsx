@@ -4,10 +4,10 @@ import axios from 'axios';
 
 class App extends React.Component {
   constructor(props) {
-    super(props)
+    super(props);
     this.state = {
       user: null,
-      messages: []
+      messages: [],
       input: 'Type in your username'
     }
   }
