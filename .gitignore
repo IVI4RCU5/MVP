@@ -1,0 +1,4 @@
+node_modules
+client/dist/bundle.js
+WiredTiger.lock
+mongod.lock

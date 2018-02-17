@@ -1,12 +1,4 @@
-var mysql = require('mysql')
+var mongoose = require('mongoose');
+mongoose.connect('mongodb://localhost/test');
 
-var database = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: 'mvp',
-  database: 'mvp'
-})
-
-var postMessage = function(callback) {
-  database.query(INSERT INTO )
-}
+var db = mongoose.connection;
