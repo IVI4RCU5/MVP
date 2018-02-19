@@ -1,7 +1,7 @@
 {
   "name": "minimum-viable-product",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "App.jsx",
   "scripts": {
     "react-dev": "webpack -d --watch",
     "server-dev": "nodemon server/index.js"
@@ -18,7 +18,9 @@
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
     "mongoose": "^5.0.6",
+    "path": "^0.12.7",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "webpack-dev-middleware": "^2.0.5"
   }
 }

@@ -1,6 +1,6 @@
-import React from ('react')
+import React from 'react';
 
-class Textbox extends React.component {
+class Textbox extends React.Component {
   constructor(props) {
     super(props);
     this.state = {

@@ -1,6 +1,6 @@
-import React from ('react')
+import React from 'react'
 
-class Friends extends React.component {
+class Friends extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
